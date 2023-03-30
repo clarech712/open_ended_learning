@@ -1,5 +1,5 @@
-<robot name="object">
-    <link name="object">
+<robot name="cube">
+    <link name="cube">
       <inertial>
         <origin xyz="0 0 0" />
         <mass value="1.0" />
@@ -18,7 +18,7 @@
         </geometry>
       </collision>
     </link>
-    <gazebo reference="object">
+    <gazebo reference="cube">
       <material>Gazebo/Blue</material>
     </gazebo>
 </robot>
